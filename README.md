@@ -60,3 +60,7 @@ Overriding this is useful for running other commands via github actions. Example
 ```yaml
 command: esptool.py merge_bin -o ../your_final_output.bin @flash_args
 ```
+
+### `idf_path`
+
+Optional: Specify the path to the ESP-IDF repository. By default the version from the docker image is used
